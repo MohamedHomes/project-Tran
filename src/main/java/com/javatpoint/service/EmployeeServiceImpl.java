@@ -3,7 +3,7 @@ package com.javatpoint.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.javatpoint.dao.EmployeeRepository;
+import com.javatpoint.repository.EmployeeRepository;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
