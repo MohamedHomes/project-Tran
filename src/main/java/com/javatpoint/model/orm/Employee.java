@@ -1,4 +1,4 @@
-package com.javatpoint.entity;
+package com.javatpoint.model.orm;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

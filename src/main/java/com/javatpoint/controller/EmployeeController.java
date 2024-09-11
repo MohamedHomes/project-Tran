@@ -10,7 +10,7 @@ import com.javatpoint.service.EmployeeService;
 @RequestMapping("/employees")
 public class EmployeeController {
 	
-	EmployeeService employeeService;
+	private EmployeeService employeeService;
 	
 	@Autowired
 	public EmployeeController(EmployeeService employeeService) {
