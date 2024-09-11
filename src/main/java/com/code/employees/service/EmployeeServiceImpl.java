@@ -1,4 +1,4 @@
-package com.javatpoint.service;
+package com.code.employees.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.javatpoint.model.orm.Employee;
-import com.javatpoint.repository.EmployeeRepository;
+import com.code.employees.model.orm.Employee;
+import com.code.employees.repository.EmployeeRepository;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
